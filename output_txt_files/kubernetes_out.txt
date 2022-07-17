@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Error from server (AlreadyExists): pods "uda-micro" already exists
+NAMESPACE              NAME                                         READY   STATUS    RESTARTS       AGE
+default                uda-micro                                    1/1     Running   0              5m40s
+kube-system            coredns-6d4b75cb6d-2bv9h                     1/1     Running   2 (109m ago)   3h52m
+kube-system            etcd-minikube                                1/1     Running   2 (109m ago)   3h53m
+kube-system            kube-apiserver-minikube                      1/1     Running   2 (109m ago)   3h53m
+kube-system            kube-controller-manager-minikube             1/1     Running   2 (109m ago)   3h53m
+kube-system            kube-proxy-jmwc2                             1/1     Running   2 (109m ago)   3h52m
+kube-system            kube-scheduler-minikube                      1/1     Running   2 (109m ago)   3h53m
+kube-system            storage-provisioner                          1/1     Running   4 (109m ago)   3h53m
+kubernetes-dashboard   dashboard-metrics-scraper-78dbd9dbf5-w7z7m   1/1     Running   0              35m
+kubernetes-dashboard   kubernetes-dashboard-5fd5574d9f-dbwpt        1/1     Running   0              35m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
