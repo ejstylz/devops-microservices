@@ -18,4 +18,3 @@ kubectl get pods -A
 # Forward the container port to a host
 kubectl port-forward uda-micro 8000:80
 
-
